@@ -20,6 +20,7 @@ Bundle 'edkolev/promptline.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
+Bundle 'chase/vim-ansible-yaml'
 " Bundle 'jlanzarotta/bufexplorer'
 
 filetype plugin indent on  " required!

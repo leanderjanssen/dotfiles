@@ -5,6 +5,11 @@
 export CLICOLOR=1
 export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 
+case $(uname) in
+  "Darwin")
+    export LC_CTYPE=en_US.UTF-8
+esac
+
 # Export hostname to terminal title
 case $TERM in
   xterm*)
@@ -26,6 +31,9 @@ if [ -x /usr/local/bin/gdircolors ]; then
   alias fgrep='fgrep --color=auto'
   alias egrep='egrep --color=auto'
 fi
+
+# Load additional zsh command completions
+fpath=(~/zsh-completions/src $fpath)
 
 # History settings
 export HISTIGNORE="&:ls:la:ll:lf:[bf]g:exit:reset:clear:cd:cd ..:cd.."
@@ -155,7 +163,7 @@ zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 source ~/.zsh_prompt
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
+export PATH="/usr/local/bin:/usr/local/go/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
