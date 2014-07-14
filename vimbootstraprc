@@ -1,0 +1,26 @@
+" be iMproved
+set nocompatible
+
+filetype off       " required!
+
+" Enable Vundle plugin manager
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+" Additional bundles:
+Bundle 'altercation/vim-colors-solarized'
+" Bundle 'tomasr/molokai'
+Bundle 'rodjek/vim-puppet'
+Bundle 'bling/vim-airline'
+Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'edkolev/promptline.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
+Bundle 'chase/vim-ansible-yaml'
+" Bundle 'jlanzarotta/bufexplorer'
+
+filetype plugin indent on  " required!

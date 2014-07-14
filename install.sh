@@ -6,4 +6,4 @@ chmod +x ./makesymlinks.sh
 
 echo "Installing Vim plugins..."
 git clone git://github.com/gmarik/Vundle.vim.git ./vim/bundle/vundle
-vim +BundleInstall +qall
+vim -u ./vimbootstraprc +BundleInstall +qall
