@@ -11,7 +11,7 @@ Bundle 'gmarik/vundle'
 
 " Additional bundles:
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tomasr/molokai'
+" Bundle 'tomasr/molokai'
 Bundle 'rodjek/vim-puppet'
 Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
