@@ -16,9 +16,9 @@
 [submodule "vim/bundle/vim-gitgutter"]
   path = vim/bundle/vim-gitgutter
   url = http://github.com/airblade/vim-gitgutter.git
-[submodule "vim/bundle/promptline"]
-  path = vim/bundle/promptline
-  url = http://github.com/edkolev/promptline.git
+[submodule "vim/bundle/promptline.vim"]
+  path = vim/bundle/promptline.vim
+  url = http://github.com/edkolev/promptline.vim.git
 [submodule "vim/bundle/nerdtree"]
   path = vim/bundle/nerdtree
   url = http://github.com/scrooloose/nerdtree.git
