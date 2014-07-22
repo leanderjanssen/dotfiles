@@ -1,33 +1,33 @@
 [submodule "vim/bundle/vundle"]
   path = vim/bundle/vundle
-  url = http://github.com/gmarik/vundle.git
+  url = git://github.com/gmarik/vundle.git
 [submodule "vim/bundle/vim-colors-solarized"]
   path = vim/bundle/vim-colors-solarized
-  url = http://github.com/altercation/vim-colors-solarized.git
+  url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "vim/bundle/vim-puppet"]
   path = vim/bundle/vim-puppet
-  url = http://github.com/rodjek/vim-puppet.git
+  url = git://github.com/rodjek/vim-puppet.git
 [submodule "vim/bundle/vim-airline"]
   path = vim/bundle/vim-airline
-  url = http://github.com/bling/vim-airline.git
+  url = git://github.com/bling/vim-airline.git
 [submodule "vim/bundle/vim-fugitive"]
   path = vim/bundle/vim-fugitive
-  url = http://github.com/tpope/vim-fugitive.git
+  url = git://github.com/tpope/vim-fugitive.git
 [submodule "vim/bundle/vim-gitgutter"]
   path = vim/bundle/vim-gitgutter
-  url = http://github.com/airblade/vim-gitgutter.git
+  url = git://github.com/airblade/vim-gitgutter.git
 [submodule "vim/bundle/promptline.vim"]
   path = vim/bundle/promptline.vim
-  url = http://github.com/edkolev/promptline.vim.git
+  url = git://github.com/edkolev/promptline.vim.git
 [submodule "vim/bundle/nerdtree"]
   path = vim/bundle/nerdtree
-  url = http://github.com/scrooloose/nerdtree.git
+  url = git://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/ultisnips"]
   path = vim/bundle/ultisnips
-  url = http://github.com/SirVer/ultisnips.git
+  url = git://github.com/SirVer/ultisnips.git
 [submodule "vim/bundle/vim-snippets"]
   path = vim/bundle/vim-snippets
-  url = http://github.com/honza/vim-snippets.git
+  url = git://github.com/honza/vim-snippets.git
 [submodule "vim/bundle/vim-ansible-yaml"]
   path = vim/bundle/vim-ansible-yaml
-  url = http://github.com/chase/vim-ansible-yaml.git
+  url = git://github.com/chase/vim-ansible-yaml.git
