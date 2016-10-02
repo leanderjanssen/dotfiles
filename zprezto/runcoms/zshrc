@@ -1,0 +1,37 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+
+unsetopt correct_all
+unsetopt CORRECT
+
+alias ls='ls -Gl'
+alias l='ls -la'
+
+compinit -i
+source /usr/local/share/zsh/site-functions/_aws
+
+#source /usr/local/share/zsh/site-functions/_brew
+#source /usr/local/share/zsh/site-functions/_terraform
+#source /usr/local/share/zsh/site-functions/_packer
+
+eval "$(rbenv init -)"
+
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+# # cache pip-installed packages to avoid re-downloading
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+
+syspip(){
+  PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
